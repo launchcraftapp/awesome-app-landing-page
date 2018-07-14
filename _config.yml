@@ -3,13 +3,14 @@
 #
 
 # Be sure all REQUIRED fields are filled out!
+baseURL: "/landing-page"
 
 #
 # General App Info
 #
 app:
   name: Launchcraft # REQUIRED - Enter your app name
-  ios_id: 1109109105 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
+  ios_id: 1332544420 # REQUIRED - 10 Digit Numeric App ID (lookup in iTunes Connect)
   android_id: # Optional - Enter Android app id like: com.example.app
 
   icon: # Leave blank to auto-magically populate
@@ -17,7 +18,7 @@ app:
   # e.g. images/app-icon-512.png
   # 512px or greater, square
 
-  screenshot: # Leave blank to auto-magically populate
+  screenshot: images/app-screen-640x1136.png # Leave blank to auto-magically populate
   # To update use path relative to project root with no leading slash:
   # e.g. images/app-screen-640x1136.png
   # 640x1136px
@@ -25,8 +26,8 @@ app:
 #
 # Marketing
 #
-marketing_header: Launch Schedule # Optional
-marketing_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+marketing_header: Rocket Launch Schedule # Optional
+marketing_desc: Launchcraft is the most convenient way to stay up to date with upcoming rocket launches from around the world. If you’ve missed a previous launch, it’s never been easier to catch up with the ability to filter launches by date range for your favorite launch agency.
 
 #
 # Social Links
@@ -39,7 +40,7 @@ social-links:
   twitter: launchcraftapp
   pinterest:
   instagram:
-  email:
+  email: launchcraftapp@gmail.com
   youtube: # channel/<your_long_string> or <user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
