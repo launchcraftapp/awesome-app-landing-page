@@ -134,6 +134,40 @@ a:hover {
   {% endif %}
 }
 
+.join-beta-buttons {
+  margin-bottom: 20px;
+}
+
+.join-beta-btn {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #0191FF;
+  color: #fff;
+
+  {% if site.download_button_background_color %}
+  background-color: {{ site.download_button_background_color }};
+  {% endif %}
+
+  {% if site.download_button_text_color %}
+  color: {{ site.download_button_text_color }};
+  {% endif %}
+}
+
+.join-beta-btn:focus,
+.join-beta-btn:hover {
+  background-color: darken(#0191FF, 20%);
+  color: #fff;
+
+  {% if site.download_button_background_color %}
+  background-color: darken({{ site.download_button_background_color }}, 20%);
+  {% endif %}
+
+  {% if site.download_button_text_color %}
+  color: {{ site.download_button_text_color }};
+  {% endif %}
+}
+
 //
 // Social
 //

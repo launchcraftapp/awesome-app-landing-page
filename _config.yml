@@ -29,6 +29,8 @@ app:
 marketing_header: Rocket Launch Schedule # Optional
 marketing_desc: Launchcraft is the most convenient way to stay up to date with upcoming rocket launches from around the world. If you’ve missed a previous launch, it’s never been easier to catch up with the ability to filter launches by date range for your favorite launch agency.
 
+beta_link: "https://goo.gl/forms/s3di1fhmAmfVzdZh1"
+
 #
 # Social Links
 #
